@@ -28,7 +28,7 @@ main() {
 	   x2=x1;
 	   printf("x1 = x2 = %f", x1);	
 	} else {  //delta < 0
-		printf("Delta Negativo. Nao possui raízes reais.", x1);	
+		printf("Delta Negativo. Nao possui raízes reais.");	
 	}
 	
 }
