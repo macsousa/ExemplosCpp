@@ -1,5 +1,5 @@
 #include <stdio.h>
-# include <math.h> // Biblioteca com as funções matemáticas
+#include <math.h> // Biblioteca com as funções matemáticas
 
 main() {
 	
