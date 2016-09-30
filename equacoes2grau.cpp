@@ -21,14 +21,14 @@ main() {
 	if(delta > 0 ) {
 	   x1 = (-b + sqrt(delta)) / (2*a);
 	   x2 = (-b - sqrt(delta)) / (2*a);
+	   
+	   printf("x1 = %f\nx2 = %f", x1,x2);
 	} else if (delta == 0) {
 	   x1 = -b/(2*a);
-	   x2=x1;	
+	   x2=x1;
+	   printf("x1 = x2 = %f", x1);	
 	} else {  //delta < 0
-		
+		printf("Delta Negativo. Nao possui raízes reais.", x1);	
 	}
-	
-	
-	printf("x1 = %f\nx2 = %f", x1,x2);
 	
 }
